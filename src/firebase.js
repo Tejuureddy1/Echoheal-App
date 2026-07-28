@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyDTsuRfjBrjuJPc-y-EXOCHcLNhuw1RszM",
+  authDomain: "echoheal-pharma-collection.firebaseapp.com",
+  projectId: "echoheal-pharma-collection",
+  storageBucket: "echoheal-pharma-collection.firebasestorage.app",
+  messagingSenderId: "1021574173266",
+  appId: "1:1021574173266:web:8a42e683bbacbbd515058b",
 };
 
 const app = initializeApp(firebaseConfig);
